@@ -1,0 +1,22 @@
+﻿@model Dojo4.Models.Aluno
+@{
+    ViewBag.Title = "Detalhes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="espacamento">
+</div>
+
+<div class="row">
+    <div class="col col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Informações do aluno</div>
+            <div class="panel-body">
+                <ol>
+                    <ul>Nome: @Model.Nome</ul>
+                    <ul>CPF: @Model.Cpf</ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿@model Dojo4.Models.TipoDeAssociacao
+@{
+    ViewBag.Title = "Detalhes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="espacamento">
+</div>
+
+<div class="row">
+    <div class="col col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Informações da associação</div>
+            <div class="panel-body">
+                <ol>
+                    <ul>Nome: @Model.Nome</ul>
+                    <ul>Periodo: @Model.Periodo</ul>
+                    <ul>Mensalidade: @Model.Mensalidade</ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
